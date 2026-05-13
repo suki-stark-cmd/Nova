@@ -1,0 +1,21 @@
+# Nova AI — Dependencies
+# Laptop-optimized, minimal footprint
+
+# Core LLM Engine
+ollama>=0.4.0
+
+# Speech
+faster-whisper>=1.0.0
+edge-tts>=6.1.0
+pyttsx3>=2.90              # Offline TTS fallback (when Edge-TTS unavailable)
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Audio Playback
+pygame>=2.5.0
+
+# Web Search (upgraded from deprecated duckduckgo-search)
+ddgs>=3.8.0
+
+# Config
+tomli>=2.0.0; python_version < "3.11"
